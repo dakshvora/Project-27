@@ -54,7 +54,7 @@ roof.display();
 
 function keyPressed(){
 if(keyCode === UP_ARROW){
-Matter.Body.applyForce(b1.Body,b1.Body.position,{x:-50,y:-50});
+Matter.Body.applyForce(b1.body,b1.body.position,{x:-50,y:-50});
 }
 
 
